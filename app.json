@@ -1,0 +1,30 @@
+{
+    "name": "XrayR",
+    "description": "Deploy XrayR on Heroku.",
+    "keywords": ["XrayR"],
+    "env": {
+        "panel": {
+            "description": "panel-type",
+            "value": "SSpanel"
+        },
+        "ApiHost": {
+            "description": "ApiHost",
+            "value": "http://127.0.0.1:667"
+        },
+        "ApiKey": {
+            "description": "ApiKey",
+            "value": "123"
+        },
+        "NodeID":{
+            "description": "NodeID",
+            "value": "41"
+        },
+        "NodeType":{
+            "description": "NodeType",
+            "value": "V2ray"
+        }
+    },
+    "website": "https://pornhub.com",
+    "repository": "https://github.com/SpeedSocks/nothing",
+    "stack": "container"
+}
