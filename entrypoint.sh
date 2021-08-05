@@ -57,6 +57,9 @@ Nodes:
           ALICLOUD_ACCESS_KEY: aaa
           ALICLOUD_SECRET_KEY: bbb
 EOF
+
+#SET nginx
+/opt/set-nginx.sh
 #RUN nginx 
 nginx
 # Run XrayR

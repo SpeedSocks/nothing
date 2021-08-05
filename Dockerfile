@@ -7,6 +7,4 @@ ADD app/etc/* /etc/XrayR/
 RUN echo $PORT
 RUN apt update&&apt install ca-certificates curl nginx -y
 RUN chmod +x /opt/*&& chmod +x /usr/local/XrayR/XrayR
-RUN /opt/set-nginx.sh
-
 ENTRYPOINT ["sh", "-c", "/opt/entrypoint.sh"]

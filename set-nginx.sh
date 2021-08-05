@@ -11,7 +11,7 @@ http {
     keepalive_timeout  300;
     server 
     {
-	listen \$PORT default_server;
+	listen $PORT default_server;
 	
         location / 
         {
